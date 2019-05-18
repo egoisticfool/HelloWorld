@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//Only perfect square numbers have the odd number of factors. i.e. 4, 9, 16 etc
 
 int main()
 {
