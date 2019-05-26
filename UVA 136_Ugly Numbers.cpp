@@ -20,8 +20,8 @@ long long int uglyNumber(long long int n)
     long long int next_ugly=1;
     for(long long int i = 1; i<n; i++)
     {
-        cout<<next_2<<" "<<next_3<<" "<<next_5<<endl;
-        cout<<i2<<" "<<i3<<" "<<i5<<endl;
+        //cout<<next_2<<" "<<next_3<<" "<<next_5<<endl;
+        //cout<<i2<<" "<<i3<<" "<<i5<<endl;
         next_ugly = min(next_2, min(next_3, next_5));
         ugly[i]=next_ugly;
         if(next_ugly==next_2)
