@@ -10,7 +10,7 @@ typedef pair<char, int>pr;
 
 int main()
 {
-    freopen("in.txt", "r", stdin);
+    //freopen("in.txt", "r", stdin);
     cout<<setprecision(2);
     cout<<fixed;
     int test, w, lines;
