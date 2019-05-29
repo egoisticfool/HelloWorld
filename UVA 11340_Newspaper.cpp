@@ -6,7 +6,7 @@
 
 using namespace std;
 
-typedef pair<char, int>pr;
+typedef pair<char, double>pr;
 
 int main()
 {
